@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Note that the below Bootstrap file is a specific version. If you grab the most
+    current from Bootstrap website, you will see the button grow transition being a lot faster
+    than in my video.  Use whichever style sheet you like best! -->
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">    <!-- My own stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="nav" role= "navigation">
+      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      <a class="nav-link" href="sign up.html">Sign Up</a>
+    </nav>
+    <!-- Select menu will have "latest" tracks -->
+    <div class="container d-flex align-items-center h-100">
+      <div class="row">
+        <header class="text-center col-12">
+          <h1 class="text-uppercase"><strong>Arbor Escape: Relaxing sounds and such</strong></h1>
+        </header>
+        <div class="buffer"></div>
+        <section class="text-center col-12"> </section><br>
+          <form class="mb-3" aria-label = "latest tracks">
+          <label for = "tracks">Soundscapes</label>
+          <select class="form-select form-select-sm" aria-label = "latest tracks">
+            <option selected>Choose from the latest tracks</option>
+            <option value="1">Frog Song</option>
+            <option value="2">Amphibibi</option>
+            <option value="3">Hop Hop Parade</option>
+            <option value="4">Free Toad</option>
+          </select><br>
+          <button type="submit" class="btn btn-secondary">Download</button>
+                              <!--Sign up button
+    Open up to sign up page w/ form for recieving an email-->
+    <a href="sign up.html" class="btn btn-light" type="button">
+      <label for ="Sign up">Register</label>
+    </a>
+          </form>
+
+      </div>
+    </div>
+
+  </body>
+</html>
