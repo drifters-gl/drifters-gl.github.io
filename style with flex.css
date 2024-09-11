@@ -38,7 +38,6 @@ select{
   flex-flow: row nowrap;
   justify-content: space-evenly;
   margin: auto;
-  overflow-x: scroll;
 }
 .reg-container{
   display: flex;
@@ -63,7 +62,6 @@ select{
   display: flex;
   flex-flow: column;
   align-items: left;
-
 }
 
 
